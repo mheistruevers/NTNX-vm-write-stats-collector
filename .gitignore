@@ -1,0 +1,22 @@
+# Generated run output
+nutanix-category-stats-*/
+output/
+run-output/
+
+# Generated data and diagnostics
+*.csv
+*.tsv
+*.log
+*.json
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating-system and editor files
+.DS_Store
+.vscode/
+.idea/
